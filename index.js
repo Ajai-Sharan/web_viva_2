@@ -1,4 +1,14 @@
-
+/*
+    Objective: 
+        Create an expense tracker that allows users to input their expenses and income, and displays a summary. 
+    
+    Tasks:
+        Function addTransaction: Adds an expense or income transaction.
+        Function calculateTotal: Calculates the total balance based on transactions.
+        Function displaySummary: Displays a summary of expenses, income, and balance.
+        Attach addTransaction to the submit button for transactions.
+        Attach calculateTotal to update the balance after every transaction.
+ */
 
 function ExpenseTracker() {
     this.trans = [];
